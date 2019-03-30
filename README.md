@@ -36,7 +36,7 @@
 ------------------------------------------
 
 ### Future Goals
-- [ ] Imporve CSS and add mobile support.
+- [ ] Improve CSS and add mobile support.
 - [ ] Implement option for Branch and Bound method.
 - [ ] Calculating all possible solutions.
 - [ ] Add Stats like total time taken, total iterations,etc.
