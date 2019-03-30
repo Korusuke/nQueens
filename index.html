@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	
+	
+	
+	<title>nQueens</title>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.4/nouislider.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/13.1.4/nouislider.min.js"></script>
+    <style> body{padding:0; margin:0;} </style>
+    <script src="queen.js"></script>
+    <script src="algo.js"></script>
+    <script src="sim.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+<body>
+        
+    <div>
+        <!-- Page Content goes here -->
+        <div class="row" id="main_row">
+            <div class="col s7">
+                <center>
+                <!-- sim goes here -->
+                <div id="sim_cont">
+
+                </div>
+                </center>
+            </div>
+            
+            <div class="col s4 grey">
+                <div class="row">
+                        <a class="waves-effect waves-light btn" onclick="startpressed()">Start</a>
+                        <a class="waves-effect waves-light btn" onclick="reset()">Reset</a>
+                </div>
+                <div class="row">
+                        <div class="col s3">Speed: </div>
+                        <div id="speed" class="col s5"></div>    
+                </div>
+                <div class="row">
+                        <div class="col s3">Queens: </div>
+                        <div id="nq" class="col s5"></div>
+                </div>
+                <center>
+                <div class="row" id="select">
+                    Select your Queen:
+                </div>
+                <div class="row">
+
+                    <div class="col s12">
+                        <div class="row">
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q1.png" onclick="set1()">
+                                </div>
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q2.png" onclick="set2()">
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q3.jpeg" onclick="set3()">
+                                </div>
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q4.png" onclick="set4()">
+                                </div>
+                        </div>
+                        <div class="row">
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q5.jpg" onclick="set5()">
+                                </div>
+                                <div class="col s4">
+                                    <img width="70%" src="assets/q6.jpg" onclick="set6()">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                </center>
+            </div>
+
+
+            <div class="col s1">
+                    
+            </div>
+        </div>
+        
+        
+    </div>   
+    <center>
+    <footer class="page-footer grey">
+            Made with <span style="color: #e25555;">&hearts;</span> by <a href="https://github.com/Korusuke" target="_blank">Kiteretsu</a>
+    </footer>
+    </center>
+    <script src="index.js"></script>
+</body>

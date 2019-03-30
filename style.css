@@ -1,0 +1,41 @@
+#main_row{
+    margin-top: 2%;
+}
+
+#sim_cont{
+    margin: auto;
+    
+    
+    
+}
+body{
+    background-color: rgb(83, 80, 80);
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#select{
+    font-size: 1.5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.page-footer{
+    bottom: 0px;
+    position: absolute;
+    width: 100vw;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
